@@ -1,0 +1,1 @@
+{"StartAt":"a","States":{"a":{"Type":"Pass","Next":"TaskState"},"TaskState":{"Type":"Task","Next":"c","Resource":"arn:aws:states:us-east-1:123456789012:task:HelloWorld"},"c":{"Type":"Pass","End":true}}}
